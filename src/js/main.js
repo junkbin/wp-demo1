@@ -1,6 +1,7 @@
+import * as $ from 'jquery';
 
 let addition = function(){
-    console.log("Addition");
+    console.log("Addition", $);
 }
 
 let subtraction = function(){
