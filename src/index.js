@@ -1,10 +1,9 @@
 import 'bootstrap';
 
-
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/style.css';
 
-import {addition, subtraction, multiplication, division} from './js/main';
 
-
-export {addition, subtraction, multiplication, division};
+// export everything from main.js
+export {default} from './js/main';
+export * from './js/main';
