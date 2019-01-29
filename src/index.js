@@ -1,4 +1,6 @@
 
+import './css/style.css';
+
 import {addition, subtraction, multiplication, division} from './js/main';
 
 

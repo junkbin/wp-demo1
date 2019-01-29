@@ -1,0 +1,11 @@
+.make-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textify {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 40px;
+}
